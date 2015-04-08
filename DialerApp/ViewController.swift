@@ -24,6 +24,8 @@ class ViewController: UIViewController {
         self.presentViewController(alert, animated: true, completion: nil)
         }
     
+    
+    //Action buttons for numerical input
     @IBAction func one(sender: AnyObject) {
         
         if(countElements(dialNum) < maxDigits) { dialNum += "1";}else{ checkMaxNum();}
